@@ -411,6 +411,7 @@ h1,h2,h3{
 }
 .d .mom .left{
     width: 50%;
+    height: 600px;
 }
 .d .mom .left img{
     width: 100%;
@@ -839,6 +840,27 @@ h1,h2,h3{
     border: 1px solid #ce0f3d;
     color: #ce0f3d;
 }
+.d .mom2{
+    display: flex;
+    justify-content: center;
+}
+.d .mom2 div{
+    border: 1px solid #40415eaf;
+    margin-right: 15px;
+    border-radius: 50%;
+    font-size: 15px;
+    padding: 10px;
+}
+.d .mom2 div#active{
+    border: none;
+    background: #ce0f3d;
+    color: white;
+}
+.d .mom2 div:hover{
+    background: #ce0f3d;
+    color: #fff;
+    border: none;
+}
 
 
 footer{
@@ -960,6 +982,9 @@ footer #one a:hover{
     }
     .d .mom{
         margin-bottom: none;
+    }
+    .d .mom .left{
+        height: unset ;
     }
     .d{
         padding-bottom: 20px;
