@@ -14,6 +14,10 @@
     src: url('font/oswbb.ttf');
     font-family: 'oswald_bold';
 }
+@font-face{
+    src: url('font/Oswald-Regular.ttf');
+    font-family: 'oswald_reg';
+}
 *{
     margin: 0;
     padding: 0;
@@ -786,10 +790,55 @@ h1,h2,h3{
     color: rgba(238, 238, 238, 0.473);
     letter-spacing: 1px;
 }
-
-
-
-
+.k{
+    padding: 80px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #fff;
+}
+.k .one{
+    width: 32%;
+    background: #f7e8f0;
+    margin-bottom: 30px;
+}
+.k .one #one{
+    width: 100%;
+}
+.k .one #one img{
+    width: 100%;
+}
+.k .one #two{
+    padding: 20px;
+}
+.k .one #two h2{
+    font-size: 25px;
+    margin-bottom: 25px;
+    font-family: 'oswald_reg';
+    letter-spacing: 1px;
+}
+.k .one #two p{
+    font-size: 16px;
+    color: #40415e;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+.k .one #two button{
+    padding: 10px 20px;
+    background: #ce0f3d;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 15px;
+    outline: none;
+    margin-right: 30px;
+}
+.k .one #two button:hover{
+    background: none;
+    border: 1px solid #ce0f3d;
+    color: #ce0f3d;
+}
 
 
 footer{
@@ -950,15 +999,15 @@ footer #one a:hover{
         padding-bottom: 20px;
         text-align: center;
     }
-    .i{
-        height: 80vh;
-    }
     .i #one{
         padding-top: 50%;
     }
     .j .mom .pa {
         width: 48%;
         margin-bottom: 20px;
+    }
+    .k .one{
+        width: 48%;
     }
 }
 
@@ -1004,8 +1053,8 @@ footer #one a:hover{
         padding-left: 10px;
         padding-right: 10px;
     }
-    .i{
-        height: 60vh;
+    .i #one {
+        padding-top: 100%;
     }
     .j .mom .pa {
         width: 100%;
@@ -1017,7 +1066,9 @@ footer #one a:hover{
     .j .mom .pa .one img {
         height: unset;
     }
-
+    .k .one{
+        width: 100%;
+    }
 
 
     footer{
@@ -1054,15 +1105,14 @@ footer #one a:hover{
         height: unset;
     }
     .i #one {
-        padding-top: 80%;
         padding-left: 20px;
+    }
+    .k{
+        padding: 100px 10px;
     }
 }
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------*/
-@media  screen and (max-width: 320px){
-    .i #one {
-        padding-top: 70%;
-    }
+@media  screen and (max-width: 360px){
     .i #one h1{
         font-size: 30px;
     }
