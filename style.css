@@ -681,6 +681,9 @@ h1,h2,h3{
 .h{
     text-align: center;
 }
+#h{
+    margin-top: 30px;
+}
 .h #p{
     font-size: 15px;
     font-weight: bold;
@@ -731,6 +734,57 @@ h1,h2,h3{
     font-size: 40px;
     color:#fff;
     padding-top: 20px;
+}
+.j{
+    padding: 50px 20px;
+    text-align: center;
+    background: #fff;
+}
+.j #p{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'oswald_bold';
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: #ce0f3d;
+}
+.j h1{
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+.j .mom{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.j .mom .pa{
+    width: 24%;
+}
+.j .mom .pa .one{
+    width: 100%;
+    overflow: hidden;
+    height: 300px;
+}
+.j .mom .pa .one img{
+    width: 100%;
+    height: 100%;
+}
+.j .mom .pa .two{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+}
+.j .mom .pa .two div{
+    width: 80%;
+    background: #ce0f3d;
+    color: white;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+.j .mom .pa .two div p{
+    color: rgba(238, 238, 238, 0.473);
+    letter-spacing: 1px;
 }
 
 
@@ -836,6 +890,9 @@ footer #one a:hover{
     .g .mom .right{
         padding-top: 40px;
     }
+    .i #one{
+        padding-top: 60%;
+    }
 }
 
 /*---------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -893,6 +950,16 @@ footer #one a:hover{
         padding-bottom: 20px;
         text-align: center;
     }
+    .i{
+        height: 80vh;
+    }
+    .i #one{
+        padding-top: 50%;
+    }
+    .j .mom .pa {
+        width: 48%;
+        margin-bottom: 20px;
+    }
 }
 
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -937,6 +1004,22 @@ footer #one a:hover{
         padding-left: 10px;
         padding-right: 10px;
     }
+    .i{
+        height: 60vh;
+    }
+    .j .mom .pa {
+        width: 100%;
+    }
+    .j .mom .pa .one {
+        overflow: unset;
+        height: unset;
+    }
+    .j .mom .pa .one img {
+        height: unset;
+    }
+
+
+
     footer{
         padding: 60px 10px;
     }
@@ -968,6 +1051,28 @@ footer #one a:hover{
         width: 100%;
     }
     .h .mom div img{
+        height: unset;
+    }
+    .i #one {
+        padding-top: 80%;
+        padding-left: 20px;
+    }
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media  screen and (max-width: 320px){
+    .i #one {
+        padding-top: 70%;
+    }
+    .i #one h1{
+        font-size: 30px;
+    }
+    .i #one #two div h2{
+        font-size: 20px;
+    }
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media  screen and (min-height: 1024px){
+    .i{
         height: unset;
     }
 }
