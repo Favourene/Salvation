@@ -731,6 +731,16 @@ h1,h2,h3{
 .i #one #two{
     display: flex;
 }
+.i #one #two a{
+    color: white;
+    text-decoration: none;
+}
+.i #one #two .fas{
+    font-size: 14px;
+}
+.i #one #two a:hover{
+    color: #ce0f3d;
+}
 .i #one #two div{
    padding-right: 20px;
    color: #fff;
@@ -861,6 +871,347 @@ h1,h2,h3{
     color: #fff;
     border: none;
 }
+.f .mom2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.f .mom2 div{
+    border: 1px solid #40415eaf;
+    margin-right: 15px;
+    border-radius: 50%;
+    font-size: 15px;
+    padding: 10px;
+}
+.f .mom2 div#active{
+    border: none;
+    background: #ce0f3d;
+    color: white;
+}
+.f .mom2 div:hover{
+    background: #ce0f3d;
+    color: #fff;
+    border: none;
+}
+#f .mom #one{
+    margin-bottom: 30px;
+}
+.l{
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+}
+.l .left{
+    width: 65%;
+}
+.l .left #one{
+    padding-bottom: 30px;
+}
+.l .left #one div{
+    width: 100%;
+} 
+.l .left #one div img{
+    width: 100%;
+}
+.l .left #one h1{
+    font-size: 35px;
+    font-family: 'oswald';
+    color: #000000cc;
+    font-weight: 100;
+    padding: 20px 0;
+}
+.l .left #one p{
+    color: #40415e;
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+.l .left #two{
+    padding-bottom: 30px;
+}
+.l .left #two div{
+    width: 100%;
+    margin-bottom: 20px;
+} 
+.l .left #two div img{
+    width: 100%;
+}
+.l .left #two h1{
+    font-size: 35px;
+    font-family: 'oswald';
+    color: #000000cc;
+    font-weight: 100;
+    padding: 20px 0;
+}
+.l .left #two p{
+    color: #40415e;
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 15px;
+}
+.l .left #three{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.l .left #three a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid #40415e7c;
+    padding: 5px 7px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-right: 7px;
+}
+.l .left #three a:hover{
+    border: 1px solid black;
+}
+.l .left #four{
+    display: flex;
+    justify-content: space-between;
+    background: #f4f4f4;
+    padding: 20px;
+}
+.l .left #four .left1{
+    width: 20%;
+}
+.l .left #four .left1 img{
+    width: 100%;
+}
+.l .left #four .right1{
+    width: 75%;
+}
+.l .left #four .right1 h1{
+    font-size: 25px;
+    padding-bottom: 20px;
+    color: #000000cc;
+}
+.l .left #four .right1 p{
+    color: #40415e;
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 15px;
+}
+.l .left #five{
+    padding: 50px 20px;
+}
+.l .left #five h1{
+    font-size: 40px;
+    padding-bottom: 50px;
+    color: #000000cc;
+    font-family: 'oswald';
+}
+.l .left #five .mom{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.l .left #five .mom .left2{
+    width: 7%;
+}
+.l .left #five .mom .left2 img{
+    width: 100%;
+    border-radius: 50%;
+}
+.l .left #five .mom .right2{
+    width: 90%;
+}
+.l .left #five .mom .right2 h2{
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: #000000cc;
+    font-family: 'oswald';
+}
+.l .left #five .mom .right2 p{
+    color: #40415e;
+    font-size: 14px;
+    line-height: 25px;
+    padding-bottom: 7px;
+}
+.l .left #five .mom .right2 p#red{
+    color: #ce0f3d;
+    font-size: 14px;
+}
+.l .left #five .mom .right2 button{
+    padding: 5px 10px;
+    background: #ce0f3d;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 13px;
+    outline: none;
+    margin-right: 30px;
+}
+.l .left #five .mom .right2 button:hover{
+    background: none;
+    border: 1px solid #ce0f3d;
+    color: #ce0f3d;
+}
+.l #six h1{
+    font-size: 30px;
+    padding-bottom: 50px;
+    color: #000000cc;
+    font-family: 'oswald';
+}
+.l #six form{
+    background: #f4f4f4;
+    padding: 50px;
+}
+.l #six form p{
+    font-size: 16px;
+    padding: 20px 0;
+}
+.l #six form input{
+    width:100%;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #40415e44;
+    border-radius: 5px;
+}
+.l #six form textarea{
+    width:100%;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #40415e44;
+    border-radius: 5px;
+    resize: none;
+}
+.l #six form button{
+    padding: 5px 10px;
+    background: #ce0f3d;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 13px;
+    outline: none;
+    margin-right: 30px;
+}
+.l #six form button:hover{
+    background: none;
+    border: 1px solid #ce0f3d;
+    color: #ce0f3d;
+}
+
+
+
+.l .right{
+    width: 28%;
+}
+.l .right #one{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.l .right #one input{
+    width: 100%;
+    padding: 12px 5px;
+    font-size: 15px;
+    border: 1px solid #40415e36;
+    border-radius: 5px;
+}
+.l .right #one .fas{
+    font-size: 15px;
+    margin-left: -30px;
+}
+.l .right #two{
+    margin-bottom: 20px;
+}
+.l .right #two h1{
+    font-size: 25px;
+    padding-bottom: 20px;
+    color: #000000cc;
+}
+.l .right #two li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #40415e36;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.l .right #two li .fas{
+    color: #40415e4f;
+}
+.l .right #two li:hover{
+    color: #ce0f3d;
+}
+.l .right #three h1{
+    font-size: 25px;
+    padding-bottom: 20px;
+    color: #000000cc;
+}
+.l .right #three .mom{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.l #three .mom .lefti{
+    width: 30%;
+}
+.l #three .mom .lefti img{
+    width: 100%;
+}
+.l #three .mom .righti{
+    width: 65%;
+}
+.l #three .mom .righti h2{
+    font-size: 15px;
+    color: #000000cc;
+    font-family: 'oswald';
+    padding-bottom: 10px;
+}
+.l #three .mom .righti div{
+    display: flex;
+}
+.l #three .mom .righti div p{
+    font-size: 11px;
+    padding-right: 5px;
+    color: #40415e9f;
+    padding-right: 5px;
+}
+.l .right #four h1{
+    font-size: 25px;
+    padding-bottom: 20px;
+    color: #000000cc;
+}
+.l .right #four .mom{
+    display: flex;
+    flex-wrap: wrap;
+}
+.l .right #four .mom a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid #40415e7c;
+    padding: 5px 7px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-right: 7px;
+}
+.l .right #four .mom a:hover{
+    border: 1px solid black;
+}
+.l .right #five h1{
+    font-size: 25px;
+    padding-bottom: 20px;
+    color: #000000cc;
+}
+.l .right #five p{
+    font-size: 18px;
+    color: #40415e;
+}
+
+
+
+
 
 
 footer{
@@ -963,6 +1314,20 @@ footer #one a:hover{
     }
     .i #one{
         padding-top: 60%;
+    }
+    .l{
+        flex-wrap: wrap;
+        padding: 50px 10px;
+    }
+    .l .right{
+        width: 100%;
+    }
+    .l .left{
+        width: 100%;
+        
+    }
+    .l .left #two img{
+        width: 100%;
     }
 }
 
@@ -1093,6 +1458,15 @@ footer #one a:hover{
     }
     .k .one{
         width: 100%;
+    }
+    .l .left #one h1,.l .left #two h1,.l .left #five h1,.l #six h1{
+        font-size: 25px;
+    }
+    .l #six form{
+        padding: 50px 20px;
+    }
+    .l .right #one input{
+        margin-top: 20px;
     }
 
 
