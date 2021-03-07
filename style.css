@@ -80,7 +80,7 @@ h1,h2,h3{
     color: white;
 }
 .collapse{
-    height: 30rem;
+    height: 34rem;
 }
 .nav ul{
     display: flex;
@@ -1302,6 +1302,22 @@ h1,h2,h3{
     height: 200px;
     resize: none;
     outline: none;
+}
+.n .left form button{
+    padding: 10px 20px;
+    background:#fff;
+    color:  #ce0f3d;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-size: 15px;
+    outline: none;
+    margin-right: 30px;
+}
+.n .left form button:hover{
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
 }
 .o{
     height: 700px;
