@@ -1,5 +1,5 @@
 # Name 
-The Venue
+Salvation Hope
 
 # Demo
 Here is a working live demo : https://salvationhope.netlify.app/
