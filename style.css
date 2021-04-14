@@ -1457,6 +1457,9 @@ footer #one a:hover{
     .d .mom{
         margin-bottom: none;
     }
+    .d .mom .right div{
+    text-align: center;
+}
     .d .mom .left{
         height: unset ;
     }
@@ -1553,6 +1556,10 @@ footer #one a:hover{
     .b .mom1 .left #one{
         width: 100%;
         margin-bottom: 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .e{
         margin-top: 30px 0;
